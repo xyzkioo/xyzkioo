@@ -1,6 +1,53 @@
 # Hi, I'm xyzkioo 👋
 
-**计算机视觉 · 嵌入式视觉 · 机器人地图工具**
+<table>
+  <tr>
+    <td width="60%" valign="middle">
+      <h3>计算机视觉 · 嵌入式视觉 · 机器人地图工具</h3>
+      <p>围绕模型实验和机器人应用开发实用工具，把检测诊断、部署验证和地图处理整理成可复查的工作流。</p>
+      <p>🔎 模型错误与目标尺度分析<br>🤖 嵌入式视觉与 ROS 2 地图工具<br>🛠️ Python / C++，关注实际问题与工具复用</p>
+    </td>
+    <td width="40%" align="center" valign="middle">
+      <a href="https://github.com/xyzkioo/vtools"><img src="https://raw.githubusercontent.com/xyzkioo/vtools/main/docs/images/vtools-main.png" alt="vtools 模型分析工作台" width="300"></a>
+      <br><sub>vtools · 模型分析工作台</sub>
+    </td>
+  </tr>
+</table>
+
+## 🧰 我的项目
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🔍 <a href="https://github.com/xyzkioo/vtools">vtools</a></h3>
+      <p><sub>独立开发 · 视觉模型工具箱</sub></p>
+      <p>定位漏检、错检与目标尺度问题，提供可视化、性能测速和模型转换入口。</p>
+      <p><code>Python</code> <code>PyTorch</code> <code>Ultralytics</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🗺️ <a href="https://github.com/xyzkioo/AGT-Mapping-Studio">AGT-Mapping-Studio</a></h3>
+      <p><sub>开源二次开发 · 地图查看与编辑</sub></p>
+      <p>基于<a href="https://github.com/Aldoubt/agt-lio-pgo-mapping">上游建图项目</a>完善二维 / 三维联动、地图编辑和离线处理接口。</p>
+      <p><code>C++</code> <code>ROS 2</code> <code>Qt5</code></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>📖 <a href="https://github.com/xyzkioo/ultralytics-ezcn">ultralytics-ezcn</a></h3>
+      <p><sub>源码整理 · 中文注释精简版</sub></p>
+      <p>便于阅读网络结构、修改模型与开展训练验证；与 vtools 独立维护、配套使用。</p>
+      <p><code>YOLO</code> <code>Ultralytics</code> <code>Python</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🔧 <a href="https://github.com/xyzkioo/engineering-code-quality">engineering-code-quality</a></h3>
+      <p><sub>工程 Skill · 代码质量方法</sub></p>
+      <p>围绕真实调用链和数据契约开展代码审查、修复与重构，关注复杂度和业务语义。</p>
+      <p><code>Code Review</code> <code>Refactoring</code> <code>Skill</code></p>
+    </td>
+  </tr>
+</table>
+
+## 🛠️ 常用技术
 
 <p>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" title="Python" width="32" height="32">
@@ -12,37 +59,6 @@
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="Linux" title="Linux" width="32" height="32">
 </p>
 
-围绕模型实验和机器人应用开发实用工具：从漏检、错检分析，到性能对比、边缘部署验证，再到二维栅格与三维点云的检查和编辑。
+视觉与部署：YOLO / OpenCV / ONNX / K230 · 机器人与界面：ROS 2 / Qt5 / OpenGL / 点云
 
-## 🧰 项目一览
-
-| 项目 | 在做什么 | 我的工作 |
-| --- | --- | --- |
-| [vtools](https://github.com/xyzkioo/vtools) | 视觉模型实验与诊断工具箱，提供检测错误分析、特征可视化、测速及模型转换等入口 | 独立开发，将常用分析流程整理为桌面工作台与可复查的报告 |
-| [AGT-Mapping-Studio](https://github.com/xyzkioo/AGT-Mapping-Studio) | ROS 2 地图查看与编辑，支持二维栅格和三维点云对照、选区联动及离线处理 | 基于 [agt-lio-pgo-mapping](https://github.com/Aldoubt/agt-lio-pgo-mapping) 二次开发，完善地图交互、编辑和工具接口 |
-| [ultralytics-ezcn](https://github.com/xyzkioo/ultralytics-ezcn) | 中文注释精简版 Ultralytics，便于阅读模型结构及开展训练、验证和推理 | 源码整理与配套使用流程，与 vtools 保持独立、协同使用 |
-| [engineering-code-quality](https://github.com/xyzkioo/engineering-code-quality) | 面向代码审查、修复和重构的工程 Skill | 整理基于调用链与数据契约的审查方法，关注代码复杂度与业务语义 |
-
-## 🖼️ 工具预览
-
-<table>
-  <tr>
-    <td width="50%" align="center">
-      <a href="https://github.com/xyzkioo/vtools"><img src="https://raw.githubusercontent.com/xyzkioo/vtools/main/docs/images/vtools-main.png" alt="vtools 视觉模型分析工作台" width="480"></a><br>
-      <b>vtools · 模型分析工作台</b>
-    </td>
-    <td width="50%" align="center">
-      <a href="https://github.com/xyzkioo/AGT-Mapping-Studio"><img src="https://raw.githubusercontent.com/xyzkioo/AGT-Mapping-Studio/main/docs/assets/map_studio_20261009/linked-preview.png" alt="AGT Map Studio 二维与三维地图对照" width="480"></a><br>
-      <b>Map Studio · 二维 / 三维对照</b>
-    </td>
-  </tr>
-</table>
-
-## 🛠️ 常用技术与关注方向
-
-- **语言与环境：** Python、C++、Linux
-- **视觉与部署：** PyTorch、OpenCV、YOLO / Ultralytics、ONNX、K230
-- **机器人与界面：** ROS 2、点云与栅格地图、Qt5 / OpenGL
-- **工程实践：** 实验记录、诊断报告、可复现配置、代码质量
-
-欢迎通过项目的 Issues 交流模型诊断、嵌入式视觉和地图工具的使用问题与改进想法。
+欢迎通过各项目的 Issues 交流使用问题和改进想法。

@@ -2,9 +2,19 @@
 
 **计算机视觉 · 嵌入式视觉 · 机器人地图工具**
 
+<p>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" title="Python" width="32" height="32">
+  &nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="C++" title="C++" width="32" height="32">
+  &nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pytorch/pytorch-original.svg" alt="PyTorch" title="PyTorch" width="32" height="32">
+  &nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="Linux" title="Linux" width="32" height="32">
+</p>
+
 围绕模型实验和机器人应用开发实用工具：从漏检、错检分析，到性能对比、边缘部署验证，再到二维栅格与三维点云的检查和编辑。
 
-## 项目一览
+## 🧰 项目一览
 
 | 项目 | 在做什么 | 我的工作 |
 | --- | --- | --- |
@@ -13,7 +23,7 @@
 | [ultralytics-ezcn](https://github.com/xyzkioo/ultralytics-ezcn) | 中文注释精简版 Ultralytics，便于阅读模型结构及开展训练、验证和推理 | 源码整理与配套使用流程，与 vtools 保持独立、协同使用 |
 | [engineering-code-quality](https://github.com/xyzkioo/engineering-code-quality) | 面向代码审查、修复和重构的工程 Skill | 整理基于调用链与数据契约的审查方法，关注代码复杂度与业务语义 |
 
-## 工具预览
+## 🖼️ 工具预览
 
 <table>
   <tr>
@@ -28,7 +38,7 @@
   </tr>
 </table>
 
-## 常用技术与关注方向
+## 🛠️ 常用技术与关注方向
 
 - **语言与环境：** Python、C++、Linux
 - **视觉与部署：** PyTorch、OpenCV、YOLO / Ultralytics、ONNX、K230

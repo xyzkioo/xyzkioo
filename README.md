@@ -3,9 +3,10 @@
 <table>
   <tr>
     <td width="60%" valign="middle">
-      <h3>计算机视觉 · 嵌入式视觉 · 机器人地图工具</h3>
-      <p>围绕模型实验和机器人应用开发实用工具，把检测诊断、部署验证和地图处理整理成可复查的工作流。</p>
-      <p>🔎 模型错误与目标尺度分析<br>🤖 嵌入式视觉与 ROS 2 地图工具<br>🛠️ Python / C++，关注实际问题与工具复用</p>
+      <h3>移动机器人视觉识别 · 视觉辅助导航</h3>
+      <p>🎓 华南农业大学 · 电子信息科学与技术专业</p>
+      <p>主要方向是移动机器人视觉识别与视觉辅助导航，重点关注目标识别、全局重定位、导航地图构建、多视角融合与三维重建，以及将算法集成到 ROS 2 / Nav2 并在真实底盘上验证。</p>
+      <p>🛠️ Python / C++，开发模型分析与地图处理工具。</p>
     </td>
     <td width="40%" align="center" valign="middle">
       <a href="https://github.com/xyzkioo/vtools"><img src="https://raw.githubusercontent.com/xyzkioo/vtools/main/docs/images/vtools-main.png" alt="vtools 模型分析工作台" width="300"></a>

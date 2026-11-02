@@ -48,18 +48,19 @@
   </tr>
 </table>
 
-## 🛠️ 常用技术
+## 🧰 技术栈
 
-<p>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" title="Python" width="32" height="32">
-  &nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="C++" title="C++" width="32" height="32">
-  &nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pytorch/pytorch-original.svg" alt="PyTorch" title="PyTorch" width="32" height="32">
-  &nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="Linux" title="Linux" width="32" height="32">
-</p>
+**语言** &nbsp; ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 
-视觉与部署：YOLO / OpenCV / ONNX / K230 · 机器人与界面：ROS 2 / Qt5 / OpenGL / 点云
+**视觉与模型** &nbsp; ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white) ![YOLO](https://img.shields.io/badge/YOLO-111F68?style=flat-square) ![ONNX](https://img.shields.io/badge/ONNX-005CED?style=flat-square&logo=onnx&logoColor=white)
+
+**机器人与界面** &nbsp; ![ROS 2](https://img.shields.io/badge/ROS%202-22314E?style=flat-square&logo=ros&logoColor=white) ![Qt5](https://img.shields.io/badge/Qt5-41CD52?style=flat-square&logo=qt&logoColor=white) ![OpenGL](https://img.shields.io/badge/OpenGL-5586A4?style=flat-square&logo=opengl&logoColor=white)
+
+**嵌入式与环境** &nbsp; ![STM32](https://img.shields.io/badge/STM32-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white) ![K230](https://img.shields.io/badge/K230-0D9488?style=flat-square) ![Linux](https://img.shields.io/badge/Linux-334155?style=flat-square&logo=linux&logoColor=white)
+
+- **🔎 视觉识别与模型分析**：目标检测、小目标与遮挡场景实验；模型对比与超参数调整；漏检 / 错检、IoU 与目标尺度分析，以及模型测速与转换。
+- **🤖 机器人视觉与导航方向**：重点关注全局重定位、导航地图构建、多视角融合与三维重建，以及 ROS 2 / Nav2 算法集成与真实底盘验证。
+- **⚙️ 嵌入式视觉与跟踪**：K230 视觉部署、灰度处理与霍夫圆检测、卡尔曼滤波及视觉坐标输出；具备 STM32 与 PID 基础。
+- **🗺️ 地图工具与系统集成**：C++ / Qt5 / OpenGL 界面开发、二维栅格图与三维点云联动、地图编辑与离线处理接口。
 
 欢迎通过各项目的 Issues 交流使用问题和改进想法。
